@@ -1,20 +1,20 @@
 # Click here to get the brief info about 
-# c - programming precisely:-
-[C.Basic]()
+# cpp - programming precisely:-
+[Cpp.Basic]()
 
-[C.types]()
+[Cpp.types]()
 
-[C.pointer]()
+[Cpp.pointer]()
 
-[C.call by value ]()
+[Cpp.call by value ]()
 
-[C.call by Refrence ]()
+[Cpp.call by Refrence ]()
 
-[C.scoping]()
+[Cpp.scoping]()
 
-[C.arrya pointer]()
+[Cpp.arrya pointer]()
 
-[C.row_order_major_order]()
+[Cpp.row_order_major_order]()
 
 
 
