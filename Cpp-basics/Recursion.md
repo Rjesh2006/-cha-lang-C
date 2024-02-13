@@ -36,23 +36,18 @@ int nSum(int n) {
 ## Working of Recursion in C++
 **Let’s trace the flow of the program for n = 5:**
 
-'''cpp
+```cpp
 nSum(5):
-
-Recursive case: int res = 5 + nSum(4);
+Recursive case: int res = 5 + nSum(4); // 📋 Copy
 nSum(4):
-
-Recursive case: int res = 4 + nSum(3);
+Recursive case: int res = 4 + nSum(3); // 📋 Copy
 nSum(3):
-
-Recursive case: int res = 3 + nSum(2);
+Recursive case: int res = 3 + nSum(2); // 📋 Copy
 nSum(2):
-
-Recursive case: int res = 2 + nSum(1);
+Recursive case: int res = 2 + nSum(1); // 📋 Copy
 nSum(1):
-
-Recursive case: int res = 1 + nSum(0);
+Recursive case: int res = 1 + nSum(0); // 📋 Copy
 nSum(0):
+Base condition: return 0; //
 
-Base condition: return 0;
-'''
+
