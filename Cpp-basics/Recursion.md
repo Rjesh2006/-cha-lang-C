@@ -36,7 +36,7 @@ int nSum(int n) {
 ## Working of Recursion in C++
 **Let’s trace the flow of the program for n = 5:**
 
-'''
+'''cpp
 nSum(5):
 
 Recursive case: int res = 5 + nSum(4);
