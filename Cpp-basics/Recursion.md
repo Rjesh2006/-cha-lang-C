@@ -14,15 +14,12 @@ Recursion in C++ is a powerful problem-solving technique where a function calls 
 - The recursive function keeps calling itself until the base condition is satisfied.
 - For example, consider the following recursive function:
 
-  
-```cpp
-int nSum(int n) {
-    if (n == 0) {
-        return 0;
-    }
-    int res = n + nSum(n - 1);
-    return res;
-}
+
+
+
+
+
+
 
 
 ## Recursive Case
