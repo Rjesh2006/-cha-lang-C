@@ -175,6 +175,4 @@
      Double: 3.14
      ```
 
-6. **Example of Function Overloading**:
 
-   - **Explanation**: In this example, the `print` function is overloaded with two versions: one that takes an integer and one that takes a double. Depending on the argument passed, the appropriate version of the function is called fn overloading.
