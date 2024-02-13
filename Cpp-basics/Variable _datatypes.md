@@ -147,4 +147,3 @@
      - string: Depends on the implementation
 ``` 
 
-This version has added space between each point for improved readability.
