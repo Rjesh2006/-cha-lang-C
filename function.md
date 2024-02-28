@@ -1,93 +1,148 @@
-***User-Defined Functions:
-Definition: User-defined functions are custom-built by programmers to address specific tasks. They allow us to divide complex problems into smaller, manageable chunks.
-Syntax for Function Declaration:
+# Basic Function:
 
-'''
-returnType functionName(parameter1, parameter2, ...) {
-    // function body
-}
-'''
+**Program:**
 
-returnType: Specifies the type of value returned by the function (e.g., int, void, etc.).
-functionName: The identifier for the function.
-parameter1, parameter2, …: Optional parameters (arguments) that the function can accept.
-Example 1: Displaying a Text:
-
-'''
+```cpp
 #include <iostream>
-using namespace std;
-
 // Function declaration
 void greet() {
-    cout << "Hello there!";
+    std::cout << "Hello, World!" << std::endl;
 }
 
 int main() {
-    // Calling the function
+    // Function call
     greet();
     return 0;
 }
-'''
-Output:
-Hello there!
+```
+
+***Theory:This program defines a basic function greet() that prints "Hello, World!" to the standard output. In main(), greet() is called, which triggers the execution of greet().
+Function with Parameters:***
 
 
 
-Example 2: Function with Parameters:
+Program:
 
-
-
-'''#include <iostream>
-using namespace std;
-
-// Display a number
-void displayNum(int n1, float n2) {
-    cout << "The int number is " << n1;
-    cout << "The double number is " << n2;
-}
-
-int main() {
-    int num1 = 5;
-    double num2 = 5.5;
-
-    // Calling the function
-    displayNum(num1, num2);
-    return 0;
-}'''
-
-Output:
-The int number is 5
-The double number is 5.5
-
-
-
-- Standard Library Functions:
-
-  
-These functions are predefined in C++ and can be directly used in our programs. For example, the main() function is a standard library function.
-Syntax for Creating a Function:
-void myFunction() {
-    // Code to be executed
-}
-
-- Replace myFunction with your desired function name.
-Example: Using a Simple Function:
-
-
+```cpp
+Copy code
 #include <iostream>
-using namespace std;
 
-// A simple function
-void myFunction() {
-    cout << "Hello from myFunction!";
+// Function declaration with parameters
+void greet(const std::string& name) {
+    std::cout << "Hello, " << name << "!" << std::endl;
 }
 
 int main() {
-    // Calling the function
-    myFunction();
+    std::string userName = "Alice";
+    // Function call with argument
+    greet(userName);
     return 0;
 }
+```
+***Theory: This program defines a function greet() that takes a std::string parameter name. In main(), a std::string variable userName is initialized and passed as an argument to greet(). greet() then prints "Hello, " followed by the provided name.
+Function with Return Value:***
+
+Program:
+```cpp
+Copy code
+#include <iostream>
+
+// Function declaration with return value
+int add(int a, int b) {
+    return a + b;
+}
+
+int main() {
+    int result = add(5, 3);
+    std::cout << "Result: " << result << std::endl;
+    return 0;
+}
+```
 
 
-Output:
-Hello from myFunction!
+***Theory: This program defines a function add() that takes two integer parameters and returns their sum. In main(), add() is called with arguments 5 and 3, and the returned value is stored in result, which is then printed to the standard output.
+Function Overloading:***
+
+
+
+**Program:**
+
+```cpp
+Copy code
+#include <iostream>
+
+// Function overloading
+int add(int a, int b) {
+    return a + b;
+}
+
+float add(float a, float b) {
+    return a + b;
+}
+
+int main() {
+    int intResult = add(5, 3);
+    float floatResult = add(2.5f, 3.7f);
+    std::cout << "Integer Result: " << intResult << std::endl;
+    std::cout << "Float Result: " << floatResult << std::endl;
+    return 0;
+}
+```
+
+***Theory: This program demonstrates function overloading, where two functions with the same name (add()) are defined but with different parameter types. In main(), add() is called with different argument types, and the appropriate overloaded function is invoked based on the argument types.
+Function with Default Arguments:***
+
+
+
+
+Program:
+
+```cpp
+Copy code
+#include <iostream>
+
+// Function with default arguments
+void printInfo(int age, std::string name = "Unknown", std::string country = "Unknown") {
+    std::cout << "Name: " << name << ", Age: " << age << ", Country: " << country << std::endl;
+}
+
+int main() {
+    printInfo(25, "Alice");
+    printInfo(30, "Bob", "USA");
+    return 0;
+}
+```
+
+
+
+***Theory:This program defines a function printInfo() that prints information about a person, including their name, age, and country. The name and country parameters have default values of "Unknown". In main(), printInfo() is called with different combinations of arguments, demonstrating the use of default arguments.
+Function Template:***
+
+**Program:**
+
+```cpp
+Copy code
+#include <iostream>
+
+// Function template
+template<typename T>
+T add(T a, T b) {
+    return a + b;
+}
+
+int main() {
+    int intResult = add(5, 3);
+    float floatResult = add(2.5f, 3.7f);
+    std::cout << "Integer Result: " << intResult << std::endl;
+    std::cout << "Float Result: " << floatResult << std::endl;
+    return 0;
+}
+```
+
+
+
+***Theory: This program demonstrates function templates, which allow defining a generic function that can operate on different data types. The add() function template takes two parameters of the same type (T) and returns their sum. In main(), add() is called with different argument types (int and float), and the appropriate instantiation of the function template is created for each call.***
+
+
+
+
