@@ -1,6 +1,6 @@
-# Basic Function:
+***Basic Function:***
 
-**Program:**
+1**Program:**
 
 ```cpp
 #include <iostream>
@@ -16,11 +16,12 @@ int main() {
 }
 ```
 
-***Theory:This program defines a basic function greet() that prints "Hello, World!" to the standard output. In main(), greet() is called, which triggers the execution of greet().
-Function with Parameters:***
+***Theory:This program defines a basic function greet() that prints "Hello, World!" to the standard output. In main(), greet() is called, which triggers the execution of greet().***
+
+***Function with Parameters:***
 
 
-
+2**Function with Parameters**
 Program:
 
 ```cpp
@@ -39,10 +40,12 @@ int main() {
     return 0;
 }
 ```
-***Theory: This program defines a function greet() that takes a std::string parameter name. In main(), a std::string variable userName is initialized and passed as an argument to greet(). greet() then prints "Hello, " followed by the provided name.
-Function with Return Value:***
+***Theory: This program defines a function greet() that takes a std::string parameter name. In main(), a std::string variable userName is initialized and passed as an argument to greet(). greet() then prints "Hello, " followed by the provided name.***
 
-Program:
+
+***Function with Return Value:***
+
+-3.Program:
 ```cpp
 Copy code
 #include <iostream>
@@ -61,7 +64,8 @@ int main() {
 
 
 ***Theory: This program defines a function add() that takes two integer parameters and returns their sum. In main(), add() is called with arguments 5 and 3, and the returned value is stored in result, which is then printed to the standard output.
-Function Overloading:***
+
+***Function Overloading:***
 
 
 
@@ -89,8 +93,9 @@ int main() {
 }
 ```
 
-***Theory: This program demonstrates function overloading, where two functions with the same name (add()) are defined but with different parameter types. In main(), add() is called with different argument types, and the appropriate overloaded function is invoked based on the argument types.
-Function with Default Arguments:***
+***Theory: This program demonstrates function overloading, where two functions with the same name (add()) are defined but with different parameter types. In main(), add() is called with different argument types, and the appropriate overloaded function is invoked based on the argument types.***
+
+***Function with Default Arguments:***
 
 
 
