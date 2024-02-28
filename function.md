@@ -20,9 +20,7 @@ int main() {
 
 ***Function with Parameters:***
 
-
-2**Function with Parameters**
-Program:
+**- 2Program:**
 
 ```cpp
 Copy code
@@ -45,7 +43,8 @@ int main() {
 
 ***Function with Return Value:***
 
--3.Program:
+**-3.Program:**
+
 ```cpp
 Copy code
 #include <iostream>
@@ -69,7 +68,7 @@ int main() {
 
 
 
-**Program:**
+**-4Program:**
 
 ```cpp
 Copy code
@@ -100,7 +99,7 @@ int main() {
 
 
 
-Program:
+**-5Program:**
 
 ```cpp
 Copy code
