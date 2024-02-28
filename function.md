@@ -35,8 +35,9 @@ Hello there!
 
 Example 2: Function with Parameters:
 
-'''
-#include <iostream>
+
+
+'''#include <iostream>
 using namespace std;
 
 // Display a number
@@ -52,8 +53,7 @@ int main() {
     // Calling the function
     displayNum(num1, num2);
     return 0;
-}
-'''
+}'''
 
 Output:
 The int number is 5
