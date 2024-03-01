@@ -1,4 +1,4 @@
-## ***In C++, "oops" typically refers to Object-Oriented Programming (OOP) principles, not to be confused with the exclamation used to express a mistake. Object-Oriented Programming is a programming paradigm that revolves around the concept of objects, which encapsulate data and behavior. In OOP, you define classes, which are blueprints for creating objects, and objects are instances of these classes.***
+## In C++, "oops" typically refers to Object-Oriented Programming (OOP) principles, not to be confused with the exclamation used to express a mistake. Object-Oriented Programming is a programming paradigm that revolves around the concept of objects, which encapsulate data and behavior. In OOP, you define classes, which are blueprints for creating objects, and objects are instances of these classes.***
 
 
 # **Definition of a Class
