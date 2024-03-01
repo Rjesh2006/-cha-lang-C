@@ -49,8 +49,8 @@ Modifications made to the parameters inside the function do not affect the origi
 Suitable for situations where the function should not modify the original data.**
 
 
-3. Call by Reference
-In call by reference, function arguments are passed by referring to the original variables. Any changes made to the parameters inside the function affect the original arguments.
+# 3. Call by Reference
+**In call by reference, function arguments are passed by referring to the original variables. Any changes made to the parameters inside the function affect the original arguments.**
 
 ```cpp
 #include <iostream>
