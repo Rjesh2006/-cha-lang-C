@@ -1,4 +1,4 @@
-# 1.**_Standard Function Calling_
+# 1._Standard Function Calling_
 In standard function calling, you call a function by writing its name followed by parentheses (). If the function requires arguments, you provide them within the parentheses.**
 
 ```cpp
