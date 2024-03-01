@@ -1,10 +1,10 @@
-In C++, "oops" typically refers to Object-Oriented Programming (OOP) principles, not to be confused with the exclamation used to express a mistake. Object-Oriented Programming is a programming paradigm that revolves around the concept of objects, which encapsulate data and behavior. In OOP, you define classes, which are blueprints for creating objects, and objects are instances of these classes.
+# ***In C++, "oops" typically refers to Object-Oriented Programming (OOP) principles, not to be confused with the exclamation used to express a mistake. Object-Oriented Programming is a programming paradigm that revolves around the concept of objects, which encapsulate data and behavior. In OOP, you define classes, which are blueprints for creating objects, and objects are instances of these classes.***
 
 
-Definition of a Class
-A class in C++ is defined using the class keyword followed by the class name and a block of member variables and functions. It typically consists of data members (also called attributes or properties) and member functions (also called methods).
+# **Definition of a Class
+**A class in C++ is defined using the class keyword followed by the class name and a block of member variables and functions. It typically consists of data members (also called attributes or properties) and member functions (also called methods).**
 
-
+```cpp
 // Class definition
 class MyClass {
 public:
@@ -17,15 +17,21 @@ public:
         // Function body
     }
 }
+```
 
-Access Specifiers
-C++ provides three access specifiers: public, private, and protected. They determine the access level of the members of the class.
 
-public: Members declared as public are accessible from outside the class.
+
+
+
+## **Access Specifiers**
+
+**C++ provides three access specifiers: public, private, and protected. They determine the access level of the members of the class.**
+
+**public: Members declared as public are accessible from outside the class.
 private: Members declared as private are only accessible from within the class.
 protected: Members declared as protected are accessible from within the class and its derived classes.
 Creating Objects
-Once a class is defined, you can create objects (instances) of that class using the class name followed by parentheses ().
+Once a class is defined, you can create objects (instances) of that class using the class name followed by parentheses ().**
 
 ```cpp
 MyClass obj1; // Creating an object of MyClass
@@ -40,8 +46,9 @@ obj1.myInteger = 10; // Accessing and setting the value of myInteger
 obj1.myFunction();   // Calling the member function myFunction
 ```
 
-Example: Simple Class
-Here's a simple example demonstrating the use of classes in C++:
+## Example: Simple Class
+**Here's a simple example demonstrating the use of classes in C++:**
+
 ```cpp
 #include <iostream>
 
