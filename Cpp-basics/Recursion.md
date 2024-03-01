@@ -1,4 +1,4 @@
-# Recursion in C++
+# _Recursion in C++_
 
 Recursion in C++ is a powerful problem-solving technique where a function calls itself repeatedly until a specific condition is met. Let’s break down the key aspects of recursion:
 
@@ -60,7 +60,7 @@ nSum(0):
 Base condition: return 0;
 ```
 
-# Types of Recursion
+# _Types of Recursion_
 
 This repository contains C++ examples demonstrating different types of recursion.
 
