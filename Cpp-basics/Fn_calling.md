@@ -1,4 +1,4 @@
-1.**Standard Function Calling
+1.**_Standard Function Calling_
 In standard function calling, you call a function by writing its name followed by parentheses (). If the function requires arguments, you provide them within the parentheses.**
 
 ```cpp
@@ -23,7 +23,7 @@ This is the most common way of invoking functions in C++.**
 
 
 
-# 2. Call by Value
+# 2. _Call by Value_
 **In call by value, function arguments are passed by copying their values. Any modifications made to the parameters inside the function do not affect the original arguments.**
 
 ```cpp
@@ -49,7 +49,7 @@ Modifications made to the parameters inside the function do not affect the origi
 Suitable for situations where the function should not modify the original data.**
 
 
-# 3. Call by Reference
+# 3. _Call by Reference_
 **In call by reference, function arguments are passed by referring to the original variables. Any changes made to the parameters inside the function affect the original arguments.**
 
 ```cpp
