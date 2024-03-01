@@ -69,7 +69,8 @@ This repository contains C++ examples demonstrating different types of recursion
 - **Definition**: Direct recursion occurs when a function directly calls itself.
 - **Explanation**: The function directly invokes itself within its body.
 - **Example**: The function `directRecursion` in the provided code calls itself directly.
-- 
+
+```cpp
 #include <iostream>
 
 void directRecursion(int n) {
@@ -85,7 +86,7 @@ int main() {
     directRecursion(num);
     return 0;
 }
-
+```
 
 
 ## 2. Indirect Recursion
@@ -93,7 +94,8 @@ int main() {
 - **Definition**: Indirect recursion happens when two or more functions call each other in a cycle.
 - **Explanation**: Functions call each other either directly or through other functions, creating a loop of function calls.
 - **Example**: Functions `func1` and `func2` in the provided code call each other alternatively.
-
+  
+```cpp
 #include <iostream>
 
 void func1(int n);
@@ -118,14 +120,15 @@ int main() {
     func1(num);
     return 0;
 }
-
+```
 
 ## 3. Tail Recursion
 
 - **Definition**: Tail recursion occurs when the recursive call is the last operation performed by the function before returning.
 - **Explanation**: The recursive call appears at the end of the function body, like a tail.
 - **Example**: The `tailRecursion` function in the provided code demonstrates tail recursion.
-
+- 
+```cpp
 #include <iostream>
 
 void tailRecursion(int n) {
@@ -141,14 +144,15 @@ int main() {
     tailRecursion(num);
     return 0;
 }
-
+```
 
 ## 4. Non-tail Recursion
 
 - **Definition**: Non-tail recursion happens when there are additional operations performed after the recursive call before the function returns.
 - **Explanation**: The recursive call isn't the last operation; there are further computations or actions after it.
 - **Example**: The `nonTailRecursion` function in the provided code prints the value of `n` after the recursive call.
-
+  
+```cpp
 #include <iostream>
 
 void nonTailRecursion(int n) {
@@ -164,7 +168,7 @@ int main() {
     nonTailRecursion(num);
     return 0;
 }
-
+```
 
 
 ## 5. Mutual Recursion
