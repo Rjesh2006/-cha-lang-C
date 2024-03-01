@@ -58,6 +58,146 @@ nSum(1):
 Recursive case: int res = 1 + nSum(0); 
 nSum(0):
 Base condition: return 0;
-```cpp
+```
 
+# Types of Recursion
+
+This repository contains C++ examples demonstrating different types of recursion.
+
+## 1. Direct Recursion
+
+- **Definition**: Direct recursion occurs when a function directly calls itself.
+- **Explanation**: The function directly invokes itself within its body.
+- **Example**: The function `directRecursion` in the provided code calls itself directly.
+- 
+#include <iostream>
+
+void directRecursion(int n) {
+    if (n > 0) {
+        std::cout << n << " ";
+        directRecursion(n - 1); // Function calling itself
+    }
+}
+
+int main() {
+    int num = 5;
+    std::cout << "Direct Recursion: ";
+    directRecursion(num);
+    return 0;
+}
+
+
+
+## 2. Indirect Recursion
+
+- **Definition**: Indirect recursion happens when two or more functions call each other in a cycle.
+- **Explanation**: Functions call each other either directly or through other functions, creating a loop of function calls.
+- **Example**: Functions `func1` and `func2` in the provided code call each other alternatively.
+
+#include <iostream>
+
+void func1(int n);
+
+void func2(int n) {
+    if (n > 0) {
+        std::cout << n << " ";
+        func1(n - 1); // Function calling another function
+    }
+}
+
+void func1(int n) {
+    if (n > 1) {
+        std::cout << n << " ";
+        func2(n / 2); // Function calling another function
+    }
+}
+
+int main() {
+    int num = 10;
+    std::cout << "Indirect Recursion: ";
+    func1(num);
+    return 0;
+}
+
+
+## 3. Tail Recursion
+
+- **Definition**: Tail recursion occurs when the recursive call is the last operation performed by the function before returning.
+- **Explanation**: The recursive call appears at the end of the function body, like a tail.
+- **Example**: The `tailRecursion` function in the provided code demonstrates tail recursion.
+
+#include <iostream>
+
+void tailRecursion(int n) {
+    if (n > 0) {
+        std::cout << n << " ";
+        tailRecursion(n - 1); // Tail recursion
+    }
+}
+
+int main() {
+    int num = 5;
+    std::cout << "Tail Recursion: ";
+    tailRecursion(num);
+    return 0;
+}
+
+
+## 4. Non-tail Recursion
+
+- **Definition**: Non-tail recursion happens when there are additional operations performed after the recursive call before the function returns.
+- **Explanation**: The recursive call isn't the last operation; there are further computations or actions after it.
+- **Example**: The `nonTailRecursion` function in the provided code prints the value of `n` after the recursive call.
+
+#include <iostream>
+
+void nonTailRecursion(int n) {
+    if (n > 0) {
+        nonTailRecursion(n - 1); // Non-tail recursion
+        std::cout << n << " ";
+    }
+}
+
+int main() {
+    int num = 5;
+    std::cout << "Non-tail Recursion: ";
+    nonTailRecursion(num);
+    return 0;
+}
+
+
+
+## 5. Mutual Recursion
+
+- **Definition**: Mutual recursion involves two or more functions calling each other directly or indirectly.
+- **Explanation**: Functions depend on each other in a cyclic manner to perform a task.
+- **Example**: Functions `even` and `odd` in the provided code call each other alternatively, forming a mutual recursion.
+
+  
+```cpp
+#include <iostream>
+
+void even(int n);
+
+void odd(int n) {
+    if (n > 0) {
+        std::cout << n << " ";
+        even(n - 1); // Function calling another function
+    }
+}
+
+void even(int n) {
+    if (n > 0) {
+        std::cout << n << " ";
+        odd(n - 1); // Function calling another function
+    }
+}
+
+int main() {
+    int num = 10;
+    std::cout << "Mutual Recursion: ";
+    odd(num);
+    return 0;
+}
+```
 
