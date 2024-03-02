@@ -1,11 +1,11 @@
-1. Single Inheritance
-Explanation:
+# 1. Single Inheritance
+***Explanation:***
 
-In single inheritance, a class inherits from only one base class. This means that the derived class inherits all the members of the base class.
+**In single inheritance, a class inherits from only one base class. This means that the derived class inherits all the members of the base class.**
 
-Example:
+**Example:**
 
-In the provided example, the Dog class inherits from the Animal class. As a result, the Dog class inherits the eat() method from the Animal class.
+**In the provided example, the Dog class inherits from the Animal class. As a result, the Dog class inherits the eat() method from the Animal class.**
 
 ```cpp
 #include <iostream>
@@ -35,14 +35,14 @@ int main() {
 ```
 
 
-2. Multiple Inheritance
-Explanation:
+# 2. Multiple Inheritance
+***Explanation:***
 
-Multiple inheritance occurs when a class inherits from more than one base class. This allows the derived class to inherit properties and behaviors from multiple classes.
+**Multiple inheritance occurs when a class inherits from more than one base class. This allows the derived class to inherit properties and behaviors from multiple classes.**
 
-Example:
+**Example:**
 
-In the provided example, the DogBird class inherits from both the Dog and Bird classes. As a result, the DogBird class can access methods from both the Dog and Bird classes.
+**In the provided example, the DogBird class inherits from both the Dog and Bird classes. As a result, the DogBird class can access methods from both the Dog and Bird classes.**
 
 ```cpp
 #include <iostream>
@@ -80,23 +80,15 @@ int main() {
 }
 ```
 
-3. Multilevel Inheritance
-Explanation:
 
-Multilevel inheritance occurs when a derived class inherits from another derived class. This creates a hierarchy of classes where each class inherits properties and behaviors from its parent class.
+# 3. Multilevel Inheritance
+***Explanation:***
 
-Example:
+**Multilevel inheritance occurs when a derived class inherits from another derived class. This creates a hierarchy of classes where each class inherits properties and behaviors from its parent class.**
 
-In the provided example, the Labrador class inherits from the Dog class, which in turn inherits from the Animal class. As a result, the Labrador class can access methods from both the Dog and Animal classes.
+**Example:**
 
-3. Multilevel Inheritance
-Explanation:
-
-Multilevel inheritance occurs when a derived class inherits from another derived class. This creates a hierarchy of classes where each class inherits properties and behaviors from its parent class.
-
-Example:
-
-In the provided example, the Labrador class inherits from the Dog class, which in turn inherits from the Animal class. As a result, the Labrador class can access methods from both the Dog and Animal classes.
+**In the provided example, the Labrador class inherits from the Dog class, which in turn inherits from the Animal class. As a result, the Labrador class can access methods from both the Dog and Animal classes.**
 
 ```cpp
 #include <iostream>
@@ -135,14 +127,14 @@ int main() {
 ```
 
 
-4. Hierarchical Inheritance
-Explanation:
+# 4. Hierarchical Inheritance
+***Explanation:***
 
-Hierarchical inheritance occurs when multiple derived classes inherit from a single base class. This creates a hierarchy of classes where each derived class shares properties and behaviors from a common base class.
+**Hierarchical inheritance occurs when multiple derived classes inherit from a single base class. This creates a hierarchy of classes where each derived class shares properties and behaviors from a common base class.**
 
-Example:
+**Example:**
 
-In the provided example, both the Dog and Cat classes inherit from the Animal class. As a result, both Dog and Cat classes can access methods from the Animal class.
+**In the provided example, both the Dog and Cat classes inherit from the Animal class. As a result, both Dog and Cat classes can access methods from the Animal class.**
 ```cpp
 #include <iostream>
 
