@@ -63,7 +63,7 @@ int main() {
 ```
 
 
-## ***2. Run-time Polymorphism***
+- ## ***2. Run-time Polymorphism***
   **Run-time polymorphism, also known as dynamic polymorphism, occurs when the decision about which function to call is made at run time. This type of                 polymorphism is achieved through virtual functions and inheritance.**
   
   **Virtual Functions: When a function is declared as virtual in a base class, it can be overridden by a function with the same signature in any derived class.        The appropriate function to call is determined at runtime based on the type of object being referred to.**
