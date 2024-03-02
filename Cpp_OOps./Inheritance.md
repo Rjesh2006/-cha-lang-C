@@ -33,7 +33,12 @@ int main() {
     return 0;
 }
 ```
+Output:
 
+```cpp
+Animal is eating
+Dog is barking
+```
 
 # 2. Multiple Inheritance
 ***Explanation:***
@@ -80,6 +85,13 @@ int main() {
 }
 ```
 
+Output:
+
+```cpp
+Dog is barking
+Bird is chirping
+DogBird is flying
+```
 
 # 3. Multilevel Inheritance
 ***Explanation:***
@@ -125,7 +137,14 @@ int main() {
     return 0;
 }
 ```
+Output:
 
+```cpp
+Animal is eating
+Dog is barking
+Labrador is brown in color
+
+```
 
 # 4. Hierarchical Inheritance
 ***Explanation:***
@@ -174,7 +193,12 @@ int main() {
 }
 ```
 
-
-
+Output:
+```cpp
+Animal is eating
+Dog is barking
+Animal is eating
+Cat is meowing
+```
 
 
