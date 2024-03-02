@@ -4,7 +4,7 @@
   Run-time Polymorphism
   Let's discuss each type:**
 
-## ***1. Compile-time Polymorphism**
+- ## ***1. Compile-time Polymorphism***
 
   **Compile-time polymorphism, also known as static polymorphism, occurs when the decision about which function to call is made at compile time. This type of 
     polymorphism is achieved through function overloading and operator overloading.**
