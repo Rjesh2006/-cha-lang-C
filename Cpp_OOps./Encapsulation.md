@@ -86,3 +86,24 @@ int main() {
 }
 ```
 
+***The output of the provided C++ code would be:***
+```cpp
+Name: John
+Age: 30
+Name: Alice
+Age: 25
+```
+***Explanation:
+We create a Person object named person with the name "John" and age 30.
+We then print the name and age of the person object, which outputs:***
+```cpp
+Name: John
+Age: 30
+```
+**Next, we use the setter methods setName("Alice") and setAge(25) to change the name to "Alice" and the age to 25.
+Finally, we print the updated name and age of the person object, resulting in:**
+```cpp
+Name: Alice
+Age: 25
+```
+
