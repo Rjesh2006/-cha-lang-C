@@ -13,7 +13,7 @@ Regardless of the data type, all pointers store memory addresses, represented as
 
 Example Usage:
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -64,7 +64,7 @@ Arrays in C++ can be treated as pointers, as they represent contiguous blocks of
 
 
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -89,7 +89,7 @@ Array values using pointer:
 A 2D array is an array of arrays. Each element in a 2D array can be accessed using two indices: one for the row and one for the column.
 
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -110,7 +110,7 @@ Scope of Variables:
 The scope of a variable determines where it's accessible within a program. Global variables are accessible throughout the program, while local variables are confined to the block or function in which they're declared.
 
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
