@@ -9,7 +9,7 @@ Where type is the base type of the pointer, and ptrName is the name of the point
 int *ip;     // Pointer to an integer
 double *dp;  // Pointer to a double
 float *fp;   // Pointer to a float
-char *ch;    // Pointer to a character
+char *ch;    // Pointer to a characte
 Regardless of the data type, all pointers store memory addresses, represented as hexadecimal numbers. However, the type of the pointer variable determines the type of the data it points to.
 
 Example Usage:
