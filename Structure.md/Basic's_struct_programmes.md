@@ -232,7 +232,7 @@ Height: 6.2
 
 ## 5. Structs and Pointers:
 
-```
+```cpp
 #include <iostream>
 #include <string>
 using namespace std;
