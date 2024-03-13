@@ -23,7 +23,7 @@ void add(int x,struct node *head,struct node *add){
 void view(struct node *head) {
     while (head != NULL) {
         printf("%d ", head->data);
-        head = head->next; // Move to the next node
+        head = head->next; 
     }
     printf("\n");
 }
@@ -54,7 +54,7 @@ int main() {
 
     third->data = 30;
     third->next = NULL;
-// travesing and adding node at en of list 
+// travesing and addng node at en of list 
     view(head.next);
     int data4;
     printf("\nTYPE DATA TO ADD : \n");
@@ -70,7 +70,6 @@ int main() {
     free(forth);
     
     
-    // Avoiding dangling pointers
     first = NULL;
     second = NULL;
     third = NULL;
