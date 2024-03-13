@@ -227,3 +227,50 @@ Name: John
 Age: 30
 Height: 6.2
 ```
+
+
+
+## 5. Structs and Pointers:
+
+```
+#include <iostream>
+#include <string>
+using namespace std;
+
+// Define a struct named Person
+struct Person {
+    string name;
+    int age;
+    double height;
+};
+
+int main() {
+    // Create a Person object
+    Person person1 = {"John", 30, 6.2};
+
+    // Create a pointer to the person1 object
+    Person* ptrPerson = &person1;
+
+    // Access and print details of person1 using the pointer
+    cout << "Name: " << ptrPerson->name << endl;
+    cout << "Age: " << ptrPerson->age << endl;
+    cout << "Height: " << ptrPerson->height << endl;
+
+    return 0;
+}
+```
+
+**Explanation:**
+
+This code creates a pointer ptrPerson that points to the person1 object of type Person.
+Using the arrow operator (->), it accesses the members of person1 through the pointer.
+Use case: This demonstrates how to use pointers with structs, useful when passing structs to functions by reference or when working with dynamically allocated structs.
+
+Output:
+```
+makefile
+Copy code
+Name: John
+Age: 30
+Height: 6.2
+```
