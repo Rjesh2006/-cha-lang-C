@@ -1,5 +1,5 @@
 ## Understanding Pointers in C++
-In C++, a pointer is a special variable that holds the memory address of another variable. Before using a pointer, you must declare it with the following syntax:
+*In C++, a pointer is a special variable that holds the memory address of another variable. Before using a pointer, you must declare it with the following syntax:
 
 type *ptrName;
 Where type is the base type of the pointer, and ptrName is the name of the pointer variable. Here are some examples of valid pointer declarations:
@@ -9,7 +9,7 @@ int *ip;     // Pointer to an integer
 double *dp;  // Pointer to a double
 float *fp;   // Pointer to a float
 char *ch;    // Pointer to a character
-Regardless of the data type, all pointers store memory addresses, represented as hexadecimal numbers. However, the type of the pointer variable determines the type of the data it points to.
+Regardless of the data type, all pointers store memory addresses, represented as hexadecimal numbers. However, the type of the pointer variable determines the type of the data it points to.*
 
 Example Usage:
 
