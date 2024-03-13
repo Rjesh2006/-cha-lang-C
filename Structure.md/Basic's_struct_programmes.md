@@ -66,7 +66,7 @@ Height: 5.5
 
 
 ## 2. Nested Structs:
-```
+```cpp
 #include <iostream>
 #include <string>
 using namespace std;
@@ -120,7 +120,7 @@ Address: 123 Main St, New York, 10001
 
 ## 3. Arrays of Structs:
 
-```
+```cpp
 #include <iostream>
 #include <string>
 using namespace std;
@@ -182,7 +182,7 @@ Height: 5.9
 
 
 ## 4. Functions with Structs:
-```
+```cpp
 #include <iostream>
 #include <string>
 using namespace std;
