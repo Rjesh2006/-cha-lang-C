@@ -1,5 +1,6 @@
 
 ## node deletion demonstration.
+
 ```cpp
 #include <stdio.h>
 #include <stdlib.h>
@@ -83,6 +84,7 @@ int main() {
     return 0;
 }
 ```
+
 ** Explanation:**
 This program demonstrates the process of deleting a node with a specified key from a linked list.
 1. It defines a structure 'Node' to represent a single node in the linked list, with integer data and a pointer to the next node.
