@@ -76,10 +76,15 @@ int main() {
     printf("\nLinked List after deletion of node with key 2: ");
     printList(head);
 
-    // Free allocated memory
+   
+// Free allocated memory
     free(head);
+    head = NULL;
     free(second);
+    second = NULL;
     free(third);
+    third = NULL;
+
 
     return 0;
 }
