@@ -96,7 +96,7 @@ Appends some elements to the list.
 Displays the contents of the list.
 Displays the size of the list.
 
-output:
+**output:**
 ```cpp
 Doubly Linked List: 1 2 3 4 5 
 Size of the list: 5
